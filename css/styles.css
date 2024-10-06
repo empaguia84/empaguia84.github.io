@@ -124,15 +124,26 @@ img.card-img-top::after {
   background-color: #1F1F1F;
 }
 
+/*#imgLetUsTalkAboutIt::after {  
+  content: "";
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: transparent!important;
+}*/
 
-img#letUsTalkAboutIt::after{
+#letUsTalkAboutIt{
     content: "";
+    top: 0;
+    left: 0;    
     background: url('https://scontent.fmnl33-3.fna.fbcdn.net/v/t31.18172-8/10818490_874841432536179_2628695595925368684_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=b895b5&_nc_eui2=AeGsZJsMzQrSnrrE_DRkyOOekuJ8Rb-aotWS4nxFv5qi1ZQ4ED8yfuebLwbibc6ZgOILLrXnLdOjdDjaPJuyFkxm&_nc_ohc=ZjEWVZbdbagQ7kNvgHNKtZc&_nc_ht=scontent.fmnl33-3.fna&_nc_gid=A5XR4Yx4ONY2YGAWRYVutgY&oh=00_AYAXqfKEnJdDTYA1jmCAPsjYahN4LGPKbSGOQ2Zo-XC75A&oe=6729AD08');    
-    background-attachment: center right;
+    background-attachment: top right;
     background-repeat: no-repeat;
     background-size: 150%;
-    background-position: 50%;
-}
+    background-position: 50% 0%;
+    min-height:200px;
+    max-height:400px;
+
 
 /*
 .card-title{
